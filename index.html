@@ -1,0 +1,42 @@
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <title>地獄通信 入口</title>
+    <meta content="地獄通信 入口" property="og:site_name">
+    <meta content="We will take revenge on your behalf. 地獄通信 | 地狱通信 | Jigoku Tsushin | Hotline to Hell | Jigoku Shoujo"
+          property="og:description">
+    <meta content="https://jigokutsush.in/entry" property="og:url">
+    <meta content="RainySummer" name="author">
+    <meta content="地獄通信, 地狱通信, jigoku tsushin, jigokutsushin, hotline to hell,m jigoku tsuushin, jigoku tsūshin, jigoku shoujo"
+          name="keywords">
+    <meta content="あなたの怨み、晴らします。 | Jigoku Tsushin | Hotline to Hell | Jigoku Shoujo | 地獄通信 | 地狱通信"
+          name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="style.css" rel="stylesheet">
+    <link href="image/favicon.ico" rel="icon" type="image/x-icon">
+</head>
+
+<body>
+    <div id="content">
+        <h1>地獄通信</h1>
+        <br/>
+        <a id="link" href="https://JigokuTsush.in" target="_self">JigokuTsush<span class="dark">.</span>in</a>
+        <br/>
+        <a id="link" href="https://JigokuTsush.in" target="_self"><img id="logo" src="image/logo.png" alt="Jigoku"/></a>
+        <br/>
+        <p id="time"></p>
+        <p id="footnote">
+            请在午夜<b>零点</b>访问<br/>
+            Please visit at <b>midnight</b>
+        </p>
+    </div>
+    <script type="text/javascript">
+        let date = new Date();
+        let hour = date.getHours();
+        let minu = date.getMinutes();
+        hour = ("0" + hour).slice(-2);
+        minu = ("0" + minu).slice(-2);
+        document.getElementById("time").innerText = hour + ' : ' + minu;
+    </script>
+</body>
+</html>
