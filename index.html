@@ -17,27 +17,27 @@
 </head>
 
 <body>
-    <div id="content">
-        <h1>地獄通信</h1>
-        <br/>
-        <a id="link" href="https://JigokuTsush.in" target="_self">JigokuTsush<span class="dark">.</span>in</a>
-        <br/>
-        <a id="link" href="https://JigokuTsush.in" target="_self"><img id="logo" src="image/logo.png" alt="Jigoku"/></a>
-        <br/>
-        <p id="time"></p>
-        <p id="footnote">
-            请在<b>午夜零点</b>访问<br/>
-            Please visit at <b>midnight</b>
-        </p>
-        <p id="source" class="dark">地獄少女閻魔あい | 村上水軍 | https://www.pixiv.net/artworks/61664773 </p>
-    </div>
-    <script type="text/javascript">
-        let date = new Date();
-        let hour = date.getHours();
-        let minu = date.getMinutes();
-        hour = ("0" + hour).slice(-2);
-        minu = ("0" + minu).slice(-2);
-        document.getElementById("time").innerText = hour + ' : ' + minu;
-    </script>
+<div id="content">
+    <h1>地獄通信</h1>
+    <br/>
+    <a href="https://JigokuTsush.in" id="link" target="_self">JigokuTsush<span class="dark">.</span>in</a>
+    <br/>
+    <a href="https://JigokuTsush.in" id="link" target="_self"><img alt="Jigoku" id="logo" src="image/logo.png"/></a>
+    <br/>
+    <p id="time"></p>
+    <p id="footnote">
+        请在<b>午夜零点</b>访问<br/>
+        Please visit at <b>midnight</b>
+    </p>
+    <p class="dark" id="source">地獄少女閻魔あい | 村上水軍 | https://www.pixiv.net/artworks/61664773 </p>
+</div>
+<script type="text/javascript">
+    let date = new Date();
+    let hour = date.getHours();
+    let minu = date.getMinutes();
+    hour = ("0" + hour).slice(-2);
+    minu = ("0" + minu).slice(-2);
+    document.getElementById("time").innerText = hour + ' : ' + minu;
+</script>
 </body>
 </html>
