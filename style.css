@@ -21,6 +21,7 @@ body {
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
+    cursor: url("image/cursor.png"), default;
 }
 
 #content {
@@ -53,6 +54,7 @@ a:hover {
     color: darkred;
     background-color: transparent;
     text-decoration: underline;
+    cursor: url("image/hand.png"), default;
 }
 
 a:active {
