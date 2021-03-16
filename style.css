@@ -46,6 +46,15 @@ body {
     margin-top: 35px;
 }
 
+img {
+    width: 38px;
+    cursor: url("image/hand.png"), default;
+}
+
+a {
+    cursor: url("image/hand.png"), default;
+}
+
 a:link {
     color: darkred;
     background-color: transparent;
